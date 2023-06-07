@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url(/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(/Poppins/Poppins-Light.ttf);
+}
+
+h1{
+    font-family: "Poppins-ExtraBold";
+}
+h2, h4{
+    font-family: "Poppins-ExtraLight";
+}
+
+figure, img{
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+}
+
+form{
+    font-family: "Poppins-Light";
+    
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.visit, a{
+    font-family: "Poppins-Light";
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
